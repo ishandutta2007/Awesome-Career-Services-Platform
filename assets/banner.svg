@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16">
+        <animate attributeName="stop-color" values="#090d16;#0d1527;#090d16" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#1e1b4b;#0f172a" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#080b12">
+        <animate attributeName="stop-color" values="#080b12;#0f172a;#080b12" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa">
+        <animate attributeName="stop-color" values="#60a5fa;#38bdf8;#a855f7;#60a5fa" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#f472b6;#60a5fa;#c084fc" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(3deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.7; transform: scale(1.08); }
+      }
+      @keyframes dashAnim {
+        from { stroke-dashoffset: 1000; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes spinOrb {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .floating-node-1 { animation: floatSlow 6s ease-in-out infinite; }
+      .floating-node-2 { animation: floatSlow 8s ease-in-out infinite reverse; }
+      .floating-node-3 { animation: floatSlow 7s ease-in-out infinite 1s; }
+      .glow-pulse { animation: pulseGlow 4s ease-in-out infinite; transform-origin: center; }
+      .network-line { stroke-dasharray: 8 6; animation: dashAnim 30s linear infinite; }
+      .orbit-spin { animation: spinOrb 25s linear infinite; transform-origin: 980px 200px; }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" rx="16" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.35" />
+
+  <!-- Background Geometric Grid / Stars -->
+  <g opacity="0.12">
+    <circle cx="100" cy="80" r="1.5" fill="#ffffff" />
+    <circle cx="250" cy="50" r="2" fill="#ffffff" />
+    <circle cx="420" cy="110" r="1" fill="#ffffff" />
+    <circle cx="600" cy="60" r="2" fill="#ffffff" />
+    <circle cx="780" cy="90" r="1.5" fill="#ffffff" />
+    <circle cx="950" cy="40" r="2" fill="#ffffff" />
+    <circle cx="1120" cy="120" r="1.5" fill="#ffffff" />
+    <circle cx="150" cy="320" r="1.5" fill="#ffffff" />
+    <circle cx="340" cy="350" r="2" fill="#ffffff" />
+    <circle cx="580" cy="330" r="1" fill="#ffffff" />
+    <circle cx="820" cy="310" r="2" fill="#ffffff" />
+    <circle cx="1050" cy="340" r="1.5" fill="#ffffff" />
+  </g>
+
+  <!-- Decorative Glowing Backlight -->
+  <circle cx="200" cy="180" r="180" fill="#38bdf8" opacity="0.08" filter="url(#glow)" class="glow-pulse" />
+  <circle cx="980" cy="200" r="200" fill="#818cf8" opacity="0.1" filter="url(#glow)" class="glow-pulse" />
+
+  <!-- Network Interconnection Lines (Career Ecosystem) -->
+  <g class="network-line" stroke="#6366f1" stroke-width="1.5" opacity="0.35">
+    <path d="M 850,200 L 980,120 L 1100,200 L 980,280 Z" fill="none" />
+    <path d="M 980,120 L 980,280" fill="none" />
+    <path d="M 850,200 L 1100,200" fill="none" />
+    <path d="M 920,80 L 1040,320" fill="none" />
+    <path d="M 1040,80 L 920,320" fill="none" />
+  </g>
+
+  <!-- Right Side Interactive Orbital Ring Graphic -->
+  <g class="orbit-spin">
+    <circle cx="980" cy="200" r="110" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" stroke-dasharray="12 8" opacity="0.5" />
+    <circle cx="980" cy="90" r="7" fill="#38bdf8" filter="url(#subtleGlow)" />
+    <circle cx="1090" cy="200" r="6" fill="#a855f7" filter="url(#subtleGlow)" />
+    <circle cx="980" cy="310" r="8" fill="#f43f5e" filter="url(#subtleGlow)" />
+    <circle cx="870" cy="200" r="6" fill="#34d399" filter="url(#subtleGlow)" />
+  </g>
+
+  <!-- Central Hub Node on Right -->
+  <g transform="translate(980, 200)">
+    <circle cx="0" cy="0" r="42" fill="#1e1b4b" stroke="url(#accentGrad)" stroke-width="3" filter="url(#subtleGlow)" />
+    <!-- Briefcase / Graduation Cap Icon in Center -->
+    <path d="M -16,-6 L 0,-15 L 16,-6 L 0,3 Z" fill="#38bdf8" />
+    <path d="M -11,-2 L -11,10 Q 0,16 11,10 L 11,-2" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path d="M 16,-6 L 16,12" stroke="#c084fc" stroke-width="2" />
+  </g>
+
+  <!-- Floating Feature Nodes on Right -->
+  <!-- Node 1: Higher Ed / Universities -->
+  <g class="floating-node-1" transform="translate(860, 110)">
+    <rect x="-45" y="-18" width="90" height="36" rx="18" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" />
+    <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#38bdf8" text-anchor="middle">🎓 Colleges</text>
+  </g>
+
+  <!-- Node 2: Students & Alumni -->
+  <g class="floating-node-2" transform="translate(1090, 110)">
+    <rect x="-48" y="-18" width="96" height="36" rx="18" fill="#0f172a" stroke="#a855f7" stroke-width="1.5" />
+    <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#c084fc" text-anchor="middle">🚀 Students</text>
+  </g>
+
+  <!-- Node 3: Employers & Recruiters -->
+  <g class="floating-node-3" transform="translate(1060, 290)">
+    <rect x="-52" y="-18" width="104" height="36" rx="18" fill="#0f172a" stroke="#34d399" stroke-width="1.5" />
+    <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#34d399" text-anchor="middle">💼 Employers</text>
+  </g>
+
+  <!-- Node 4: Career Outcomes -->
+  <g class="floating-node-1" transform="translate(870, 290)">
+    <rect x="-50" y="-18" width="100" height="36" rx="18" fill="#0f172a" stroke="#f43f5e" stroke-width="1.5" />
+    <text x="0" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#fb7185" text-anchor="middle">📊 Outcomes</text>
+  </g>
+
+  <!-- Left Side Header Typography -->
+  <!-- Category Pill Badge -->
+  <g transform="translate(80, 72)">
+    <rect x="0" y="0" width="260" height="30" rx="15" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" opacity="0.9" />
+    <circle cx="16" cy="15" r="4" fill="#38bdf8" />
+    <text x="28" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a5b4fc" letter-spacing="1">CURATED ECOSYSTEM 2026</text>
+  </g>
+
+  <!-- Main Title -->
+  <g transform="translate(80, 150)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="url(#textGrad)" letter-spacing="-0.5">Awesome Career</text>
+    <text x="0" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.5">Services Platform</text>
+  </g>
+
+  <!-- Subtitle / Tagline -->
+  <g transform="translate(80, 245)">
+    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" fill="#94a3b8">
+      Top SaaS Platforms &amp; Open-Source Architectures for Higher Education,
+    </text>
+    <text x="0" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500" fill="#94a3b8">
+      Campus Recruiting, Advising, Experiential Learning &amp; Student Employability.
+    </text>
+  </g>
+
+  <!-- Bottom Metric Highlights / Tags -->
+  <g transform="translate(80, 320)">
+    <rect x="0" y="0" width="130" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="65" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1" text-anchor="middle">⚡ SaaS Solutions</text>
+
+    <rect x="142" y="0" width="165" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="224.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1" text-anchor="middle">🛠️ Open-Source Stacks</text>
+
+    <rect x="319" y="0" width="145" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="391.5" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1" text-anchor="middle">🎯 Career Readiness</text>
+  </g>
+</svg>
