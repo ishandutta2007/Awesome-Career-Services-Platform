@@ -16,7 +16,7 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 
 
-**Examples** include Handshake, Symplicity CSM, 12twenty, RippleMatch, CareerEco, GoinGlobal, PeopleGrove, Suitable, JobTeaser, and Firsthand. Handshake, for example, positions itself as a three-sided career network connecting students/knowledge workers, educational institutions, and employers, while its career-center offering includes jobs, events, employer connections, student engagement, and outcomes reporting. :contentReference[oaicite:0]{index=0}
+**Examples** include Handshake, Symplicity CSM, 12twenty, RippleMatch, CareerEco, GoinGlobal, PeopleGrove, Suitable, JobTeaser, and Firsthand. Handshake, for example, positions itself as a three-sided career network connecting students/knowledge workers, educational institutions, and employers, while its career-center offering includes jobs, events, employer connections, student engagement, and outcomes reporting.
 
 
 
@@ -46,131 +46,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Handshake](https://joinhandshake.com/)**  
-
-  Career network and higher-education career-services platform connecting students, educational institutions, and employers. Supports job and internship discovery, employer engagement, events, career-center workflows, student engagement, and outcomes reporting. :contentReference[oaicite:1]{index=1}
-
-
-
-- **[Symplicity CSM](https://www.symplicity.com/career-services)**  
-
-  Career-services management platform for colleges and universities covering student engagement, appointments, advising, employer relations, jobs, events, experiential learning, and reporting.
-
-
-
-- **[12twenty](https://12twenty.com/)**  
-
-  Career-services platform focused on student career development, employer engagement, recruiting, internships, career outcomes, and university career-center workflows.
-
-
-
-- **[RippleMatch](https://ripplematch.com/)**  
-
-  Early-career recruiting and talent-matching platform connecting students and recent graduates with employers through candidate matching and recruiting workflows.
-
-
-
-- **[CareerEco](https://www.careereco.com/)**  
-
-  Virtual career-services and recruiting platform supporting career fairs, employer events, networking, student engagement, and recruiting interactions.
-
-
-
-- **[GoinGlobal](https://www.goinglobal.com/)**  
-
-  Global career and employment platform providing international job-search resources, country career information, employer information, and tools for students and professionals seeking opportunities abroad.
-
-
-
-- **[PeopleGrove](https://www.peoplegrove.com/)**  
-
-  Higher-education engagement platform connecting students, alumni, mentors, employers, and institutions around career development, networking, mentoring, and experiential opportunities.
-
-
-
-- **[Suitable](https://www.suitable.co/)**  
-
-  Student-success and career-readiness platform helping institutions manage competencies, experiential learning, engagement, career readiness, and employment outcomes.
-
-
-
-- **[JobTeaser](https://www.jobteaser.com/)**  
-
-  European university career platform connecting students and graduates with employers, internships, jobs, career content, and university career centers.
-
-
-
-- **[Firsthand](https://firsthand.co/)**  
-
-  Career-information and employer research platform providing career guides, company information, industry information, reviews, and resources for students and job seekers.
-
-
-
-- **[Symplicity](https://www.symplicity.com/)**  
-
-  Higher-education technology provider offering career services, student success, employer engagement, and campus-management products.
-
-
-
-- **[GradLeaders](https://www.gradleaders.com/)**  
-
-  Career-management platform supporting graduate and professional programs with career management, recruiting, employer engagement, and outcomes workflows.
-
-
-
-- **[CareerShift](https://www.careershift.com/)**  
-
-  Career exploration and job-search platform providing job and employer research, networking information, and career-search tools.
-
-
-
-- **[NACElink](https://www.naceweb.org/)**  
-
-  Career-services and recruiting ecosystem associated with the National Association of Colleges and Employers, supporting connections between career centers and employers.
-
-
-
-- **[Parker Dewey](https://www.parkerdewey.com/)**  
-
-  Platform centered around paid micro-internships and experiential opportunities connecting students and employers.
-
-
-
-- **[Riipen](https://riipen.com/)**  
-
-  Experiential-learning platform connecting students with employers through projects, internships, and real-world work experiences.
-
-
-
-- **[Forage](https://www.theforage.com/)**  
-
-  Virtual job-simulation platform enabling students and early-career candidates to explore employers and careers through practical experiences.
-
-
-
-- **[VMock](https://www.vmock.com/)**  
-
-  AI-powered career-readiness platform providing resume review, benchmarking, feedback, and career-services support.
-
-
-
-- **[Big Interview](https://biginterview.com/)**  
-
-  Career-preparation platform focused on video interview practice, interview training, resume guidance, and career-readiness workflows.
-
-
-
-- **[Graduateland](https://graduateland.com/)**  
-
-  Career platform connecting students, graduates, universities, and employers with job opportunities, career events, employer branding, and recruiting tools.
-
-
-
-- **[GradConnection](https://au.gradconnection.com/)**  
-
-  Graduate recruitment platform connecting students and graduates with employers and early-career opportunities.
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[Handshake](https://joinhandshake.com/)** | Higher-education career network connecting students, colleges, and employers for job/internship discovery, events, career-center workflows, and outcomes tracking. | **Students:** Free<br>**Employers:** Pro from $450/month ($4,500/year)<br>**Universities:** Starting at ~$10,000/year | **Students:** Free forever (unlimited jobs, fairs, advising appointments)<br>**Employers:** Free Basic plan (unlimited job posts, company profile, 10 direct student messages/mo; 4-day Pro trial on 1st job post) |
+| **[Symplicity CSM](https://www.symplicity.com/career-services)** | Comprehensive career-services management platform for higher-ed advising, employer relations, on-campus recruiting, experiential learning, and reporting. | **Employers:** Symplicity Recruit starting at $329/month<br>**Universities:** Annual licenses starting at ~£17,200/year (~$22,000/year for ≤1,000 FTE) | **Students:** Free forever via partner institution<br>**Employers:** Free basic account to receive direct applicants from connected partner schools; 30-day institutional evaluation trial on request |
+| **[12twenty](https://12twenty.com/)** | Career-center suite focused on student career development, OCR, internship tracking, employer engagement, and NACE/MBA CSEA outcome analytics. | **Starting at:** $10/user/month for small teams; Institutional packages starting at ~$5,000–$12,000/year based on modules | **Students:** Free forever via partner school (unlimited job searches & outcomes reporting)<br>**Institutions:** 14-day evaluation demo sandbox |
+| **[RippleMatch](https://ripplematch.com/)** | Early-career recruiting and AI talent-matching platform connecting students and recent graduates directly with enterprise recruiters. | **Students:** Free<br>**Employers:** Starting at $2,500/month ($30,000/year up to $250,000/year) | **Students/Job Seekers:** Free forever (unlimited automated role matching, profile visibility, and applications)<br>**Employers:** 14-day guided pilot upon sales consultation |
+| **[CareerEco](https://www.careereco.com/)** | Virtual career fair and online recruiting event platform supporting multi-school fairs, chat rooms, video booths, and candidate screening. | **Registration:** Starting at $195–$495 per virtual fair/booth<br>**Sponsorship Tiers:** $750–$1,000/event | **Students & Candidates:** Free forever (unlimited event registrations, chat/video booths, resume uploads)<br>**Organizations:** Pay-per-event model (no recurring base subscription fee required) |
+| **[GoinGlobal](https://www.goinglobal.com/)** | Global career and employment platform providing international job & internship search, country career guides, work permit guidance, and H-1B visa databases. | **Institutions:** Annual site subscriptions starting at ~$2,500–$4,500/year based on FTE enrollment | **Students & Alumni:** Free forever access via university library/career portal SSO<br>**Institutions:** 30-day institutional trial for career centers and global programs |
+| **[PeopleGrove](https://www.peoplegrove.com/)** | Higher-education mentoring, career access, and alumni networking platform facilitating flash mentoring, career pathways, and student communities. | **Institutions:** Annual subscriptions starting at ~$10,000–$15,000/year for core mentoring/career modules | **Students & Alumni:** Free forever (unlimited mentor connections, alumni directory browsing, flash mentoring requests)<br>**Institutions:** 14-day sandbox evaluation upon request |
+| **[Suitable](https://www.suitable.co/)** | Student-success and career-readiness platform mapping co-curricular competencies, high-impact activities, badges, and NACE readiness milestones. | **Institutions:** Annual subscriptions starting at ~$6,000/year based on student enrollment and modules | **Students:** Free forever via mobile/web apps (unlimited competency tracking, badging, digital portfolio export)<br>**Institutions:** 14-day administrative pilot demo |
+| **[JobTeaser](https://www.jobteaser.com/)** | European university career platform integrated into university career portals for job/internship distribution, career guidance, and employer recruiting. | **Universities:** Free core Career Center platform<br>**Employers:** Starter packs from €1,500/year (or ~€350 per individual job posting) | **Students & Universities:** Free forever (unlimited applications across Europe; free SaaS career center for schools)<br>**Employers:** Free basic registration to post directly to select partner universities |
+| **[Firsthand](https://firsthand.co/)** | Career exploration, employer research, company reviews, and career guides (formerly Vault Career Intelligence) with student mentoring capabilities. | **Individuals:** Vault Gold at $14.99/month ($120/year)<br>**Institutions:** Campus site licenses starting at ~$5,000/year | **Individuals:** Free basic tier (limited company overviews, top ranking snippets) + 7-day free trial of Vault Gold<br>**Students:** Free unlimited access via subscribing institutional library/career center |
+| **[Symplicity](https://www.symplicity.com/)** | Higher-ed student-lifecycle and campus software suite spanning career services, student conduct (Advocate), and accessibility services (Access). | **Institutions:** Multi-product institutional licenses starting at ~$25,000/year | **Students:** Free forever across licensed campus services<br>**Administrators:** 30-day sandbox pilot for multi-department evaluation |
+| **[GradLeaders](https://www.gradleaders.com/)** | Career-management and recruitment platform specialized in graduate, MBA, and undergraduate business career services and employer sourcing. | **Job Postings:** Starting at $250/post<br>**Recruiters:** Candidate search access packages starting at ~$3,500/year | **Students:** Free forever (profile creation, resume upload, job applications)<br>**Recruiters:** 14-day trial with preview access to select candidate databases |
+| **[CareerShift](https://www.careershift.com/)** | Targeted job-hunting, employer contact research, and networking tool aggregating nationwide job listings and verified recruiter contact information. | **Individuals:** Starting at ~$60/month (or invite-only CareerShift One)<br>**Institutions:** Site licenses starting at ~$3,000–$5,000/year | **Students & Alumni:** Free forever via subscribing university/library portals<br>**Individual Seekers:** 24-hour full-feature free trial |
+| **[NACElink](https://www.naceweb.org/)** | National Association of Colleges and Employers career network connecting university career centers directly with national employers and recruiters. | **Job Postings:** Starting at $220/30-day post (NACE members) / $275 (non-members); 90-day post at $660/$770 | **Students:** Free forever to search opportunities and submit resumes across participating college networks<br>**Employers:** Free account registration (pay per individual active job post) |
+| **[Parker Dewey](https://www.parkerdewey.com/)** | Micro-internship platform connecting college students and recent graduates with employers for short-term, paid professional projects. | **Employers:** Fixed project fee (typically $200–$600 per project, 90% goes to student, 10% platform fee)<br>**Parker Dewey Plus (Universities):** $5,000/year | **Students:** Free forever (no application fees, keep 100% of awarded student stipend)<br>**Employers:** Free forever to create account and draft/post micro-internship projects |
+| **[Riipen](https://riipen.com/)** | Experiential-learning and project-based education platform connecting college classrooms and students with real-world corporate challenges. | **Employers:** Starter packages from $2,499/year (up to 10 projects/5 postings)<br>**Institutions:** Annual licenses starting at ~$10,000/year | **Students:** Free forever (participate in courses, work on real projects, earn stipends)<br>**Employers:** Free basic access for 1 matched project in select government-funded programs (e.g., Level UP) |
+| **[Forage](https://www.theforage.com/)** | Virtual job-simulation platform offering free, open-access work experience programs authored by leading global employers. | **Students:** Free<br>**Employers:** B2B simulation programs starting at ~$20,000–$50,000/year for bespoke course development | **Students & Learners:** Free forever (unlimited access to 300+ employer simulations, certificates, self-paced completion, direct recruiter discovery)<br>**Employers:** Guided demonstration upon request |
+| **[VMock](https://www.vmock.com/)** | AI-powered career-readiness platform providing instant resume scoring, bullet-point analysis, LinkedIn profile optimization, and elevator pitch feedback. | **Institutions:** Annual contracts starting at ~$5,000–$15,000/year based on FTE enrollment<br>**Individual Credits:** ~$15–$25 via partner programs | **Students:** Free access via subscribing universities (typically limited to 10 AI resume reviews/year and 3 video pitch evaluations)<br>**Public Demo:** 1 free instant resume score assessment |
+| **[Big Interview](https://biginterview.com/)** | AI and video-based interview training and preparation platform featuring mock interview practice, answer scoring, and curriculum modules. | **Job Seekers:** $39/month (1-month), $99 (3-month), or $299 lifetime<br>**Institutions:** Starting at ~$3,500/year | **Students:** Free forever via participating college/university portals<br>**Job Seekers:** 3-day free trial (includes access to 2 curriculum modules and 5 practice video interview recordings) |
+| **[Graduateland](https://graduateland.com/)** | European student and graduate career portal (part of JobTeaser Network) providing entry-level jobs, internships, graduate programs, and virtual career fairs. | **Employers:** Single job posting from €295/post; Recruitment subscriptions from €1,500/year | **Students & Graduates:** Free forever (unlimited job applications, profile creation, virtual career fairs)<br>**Employers:** Free company profile creation and basic listing |
+| **[GradConnection](https://au.gradconnection.com/)** | Asia-Pacific and Australian graduate recruitment network (by SEEK) connecting university students and grads with top employer internship programs. | **Employers:** Campus targeting from A$65/university; State job postings from A$120–$450; National campaigns starting at A$1,500 | **Students & Grads:** Free forever (unlimited graduate job search, application tracking, employer event invites)<br>**Employers:** Free basic company profile setup |
 
 
 
@@ -180,37 +78,37 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 - **[Career Pilot](https://github.com/anurag3407/career-pilot)**  
 
-  Open-source AI-powered career operating system combining resume management, mock interviews, job tracking, portfolio building, career tools, fellowships, GitHub intelligence, and outreach. It is one of the broader open-source projects for constructing an integrated career platform. :contentReference[oaicite:2]{index=2}
+  Open-source AI-powered career operating system combining resume management, mock interviews, job tracking, portfolio building, career tools, fellowships, GitHub intelligence, and outreach. It is one of the broader open-source projects for constructing an integrated career platform.
 
 
 
 - **[JobSync](https://github.com/Gsync/jobsync)**  
 
-  Self-hosted, open-source job-search assistant and application tracker with resume management, AI resume review, job matching, application analytics, automated job discovery, tasks, and an AI/MCP integration. :contentReference[oaicite:3]{index=3}
+  Self-hosted, open-source job-search assistant and application tracker with resume management, AI resume review, job matching, application analytics, automated job discovery, tasks, and an AI/MCP integration.
 
 
 
 - **[OpenJobs](https://github.com/hamishfromatech/open-jobs)**  
 
-  Open-source job-board platform designed to connect professionals with employers. Provides a foundation for building job marketplaces, career portals, and recruitment websites. :contentReference[oaicite:4]{index=4}
+  Open-source job-board platform designed to connect professionals with employers. Provides a foundation for building job marketplaces, career portals, and recruitment websites.
 
 
 
 - **[JobHunt](https://github.com/BaseMax/JobHuntTS)**  
 
-  Open-source TypeScript job-board platform with employer job posting, candidate profiles, job search, applications, application tracking, and GraphQL APIs. :contentReference[oaicite:5]{index=5}
+  Open-source TypeScript job-board platform with employer job posting, candidate profiles, job search, applications, application tracking, and GraphQL APIs.
 
 
 
 - **[PeelJobs / Open Source Job Portal](https://github.com/MicroPyramid/opensource-job-portal)**  
 
-  Open-source Python/Django job portal with employer, recruiter, candidate, job-posting, application-management, event, analytics, and job-search functionality. :contentReference[oaicite:6]{index=6}
+  Open-source Python/Django job portal with employer, recruiter, candidate, job-posting, application-management, event, analytics, and job-search functionality.
 
 
 
 - **[freehire](https://github.com/strelov1/freehire)**  
 
-  Open-source job-search engine that crawls company career pages, normalizes and deduplicates job postings, and provides faceted search over jobs. Useful as the job-discovery layer of a self-hosted career platform. :contentReference[oaicite:7]{index=7}
+  Open-source job-search engine that crawls company career pages, normalizes and deduplicates job postings, and provides faceted search over jobs. Useful as the job-discovery layer of a self-hosted career platform.
 
 
 
@@ -372,7 +270,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 - **[PeelJobs](https://github.com/MicroPyramid/opensource-job-portal)** for a Django-based open job portal.
 
-- **[freehire](https://github.com/strelov1/freehire)** for large-scale job discovery, normalization, and deduplication. :contentReference[oaicite:8]{index=8}
+- **[freehire](https://github.com/strelov1/freehire)** for large-scale job discovery, normalization, and deduplication.
 
 - **[OpenCATS](https://github.com/opencats/OpenCATS)** for applicant tracking and employer-side recruiting.
 
@@ -442,11 +340,11 @@ The open-source ecosystem is particularly useful for building **specialized comp
 
 
 
-The most promising open-source projects for the **career-services/job-search layer** are currently projects such as **Career Pilot**, **JobSync**, **OpenJobs**, **JobHunt**, **PeelJobs**, and **freehire**. JobSync, for example, explicitly combines job application tracking, resume management, AI review, job matching, automated job discovery, tasks, analytics, and self-hosting. :contentReference[oaicite:9]{index=9} Career Pilot goes further toward an integrated career OS combining resumes, mock interviews, job tracking, portfolios, fellowships, GitHub intelligence, and outreach. :contentReference[oaicite:10]{index=10}
+The most promising open-source projects for the **career-services/job-search layer** are currently projects such as **Career Pilot**, **JobSync**, **OpenJobs**, **JobHunt**, **PeelJobs**, and **freehire**. JobSync, for example, explicitly combines job application tracking, resume management, AI review, job matching, automated job discovery, tasks, analytics, and self-hosting. Career Pilot goes further toward an integrated career OS combining resumes, mock interviews, job tracking, portfolios, fellowships, GitHub intelligence, and outreach.
 
 
 
-For the **job-discovery layer**, freehire is particularly interesting because it crawls company career pages, normalizes postings, deduplicates roles, and provides structured search rather than simply acting as another recruiter-oriented job board. :contentReference[oaicite:11]{index=11}
+For the **job-discovery layer**, freehire is particularly interesting because it crawls company career pages, normalizes postings, deduplicates roles, and provides structured search rather than simply acting as another recruiter-oriented job board.
 
 
 
