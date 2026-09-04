@@ -113,6 +113,9 @@ The open-source projects below are sorted in **descending order by GitHub star c
 14. **[Reactive Resume](https://github.com/AmruthPillai/Reactive-Resume)** [![GitHub stars](https://img.shields.io/github/stars/AmruthPillai/Reactive-Resume?style=social&color=white)](https://github.com/AmruthPillai/Reactive-Resume/stargazers)  
     Free and open-source resume builder with real-time editing, ATS-friendly templates, multi-language support, custom URL sharing, and pixel-perfect PDF rendering.
 
+15. **[ResumeAI](https://withresumeai.com/)**  
+    Free ATS checker and live candidate leaderboard for job seekers. State of ATS 2026: 738 employers (704 portal-verified); Workday 37.9%. Paid placement is visibility-only (not pay-for-score).
+
 15. **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
     Open-source customer engagement and live chat suite for university career center help desks, virtual career fair live inquiries, student triage, and counselor messaging.
 
